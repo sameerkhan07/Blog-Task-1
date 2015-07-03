@@ -1,0 +1,72 @@
+img { max-width:100%; }
+
+a:hover {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; 
+  filter: alpha(opacity=50); 
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+body{
+  border-top:0;
+  background:url('../img/background.jpg') no-repeat fixed;
+  background-size:100% 100%  
+}
+
+.thumbnails li> .back .caption { 
+  background:#fff !important; 
+  padding:10px;
+  size=360px 240px; 
+}
+
+.page-header {
+    text-align: center;
+    background: #f9f9f9;
+    margin: -10px -40px 40px;
+    padding: 20px 40px;
+    border-top: 4px solid #ccc;
+    color: #999;
+    opacity: 0.6;
+    text-transform: uppercase;
+    border-radius:10px;
+}
+
+.page-header h3 {
+  center;
+  line-height: 0.88rem;
+  color: #000;
+}
+
+.caption{
+  margin-top: -20px;
+  margin-bottom: 20px;
+  opacity: 0.6;
+  border-bottom-left-radius:10px;
+  border-bottom-right-radius:10px;
+}
+
+.caption hr{
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.caption h4 {   
+    color: #444;
+}
+
+.caption p {
+  color: #999;
+  margin-top: -20px;
+  color: black;
+}
+
+#abc{
+  margin-top: 20px;
+}
+
+.caption a{
+  margin-left:-12px;
+  color: black;
+}
+
+li { list-style-type:none;}
